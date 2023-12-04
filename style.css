@@ -1,0 +1,34 @@
+body {
+  margin: auto;
+  min-height: 100vh;
+}
+
+/* Table */
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+/* Footer */
+.footer {
+  align-items: center;
+  bottom: 0;
+  color: rgb(13, 1, 61);
+  display: flex;
+  height: 5rem;
+  justify-content: center;
+  left: 0;
+  width: 100%;
+}
